@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Browsers" value="IE"/>
+  <test name="IETest(failed)">
+    <parameter name="Browsers" value="IE"/>
+    <classes>
+      <class name="MultipleBrowsers.TestSuite">
+        <methods>
+          <include name="LaunchChromeBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- MultipleBrowsers.TestSuite -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
